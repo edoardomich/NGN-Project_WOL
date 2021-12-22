@@ -41,3 +41,5 @@ Rarely the error "Unsupported version 0x1" could pop up in ryu console. Just sto
 
 ## Other ##
 In the 'configs' directory there is the 'dnsmasq.conf' file used in our dhcp/dns server.
+
+In the 'configs' directory there is the vagrant configuration file, where the bridge is added. Modify the name of the network adapter to whatever adapter you intend to use (Line 206)
